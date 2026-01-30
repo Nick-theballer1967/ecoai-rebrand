@@ -194,11 +194,13 @@ main {
   font-size: clamp(2rem, 4vw, 2.8rem);
   line-height: 1.15;
   display: inline-block;
-  padding: 0.5rem 1rem;
-  border-radius: 16px;
-  background: linear-gradient(135deg, var(--accent), var(--highlight));
-  color: #05261c;
-  box-shadow: var(--shadow);
+  padding: 0.65rem 1.2rem;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #0b3d2e 0%, #1fae8a 55%, #a3e635 100%);
+  color: #f3fff9;
+  box-shadow: 0 18px 45px rgba(11, 61, 46, 0.35);
+  border: 1px solid rgba(11, 61, 46, 0.2);
+  text-shadow: 0 6px 18px rgba(5, 38, 28, 0.35);
 }
 
 .hero-subline {
